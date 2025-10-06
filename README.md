@@ -13,7 +13,7 @@ It’s designed as a learning project — no backend or APIs, just static pages 
 
 ## Features
 - Static pages for browsing and exploring songs
-- Simple music-player UI (ready for JS logic)
+- Simple music-player UI
 - Responsive design
 - Easy to deploy on GitHub Pages or Netlify
 - Beginner-friendly project structure
