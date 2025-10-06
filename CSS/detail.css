@@ -1,0 +1,160 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1000px;
+  background-image: url(../Assets/DetailsBG.jpg);
+  background-position: center;
+  border-top: 1px solid #9c9c9c;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.topbox {
+  display: flex;
+  width: 100%;
+  height: 35%;
+  align-items: center;
+  justify-content: center;
+}
+
+.topcontainer {
+  display: flex;
+  height: 90%;
+  width: 70%;
+}
+
+.displaybox {
+  display: flex;
+  width: 35%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
+.rightbox {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  height: 100%;
+}
+
+.tittlebox {
+  display: flex;
+  height: 15%;
+  width: 100%;
+  color: #c355f6;
+  align-items: flex-end;
+  font-size: 32px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+.singerbox {
+  display: flex;
+  height: 15%;
+  width: 100%;
+  align-items: center;
+  font-size: 24px;
+  color: #c355f6;
+  padding-left: 10px;
+}
+
+.descbox {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.belowbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 65%;
+}
+
+.lyrics {
+  display: flex;
+  width: 100%;
+  height: 10%;
+
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 32px;
+  color: #c355f6;
+  font-weight: 600;
+}
+
+.lyricsbox {
+  display: flex;
+  height: 90%;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.lyricbox {
+  display: flex;
+  height: 90%;
+  width: 70%;
+  background-color: #242424;
+  opacity: 0.8;
+  color: #ffffff;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    height: 900px;
+  }
+  .topbox {
+    height: 30%;
+  }
+  .photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
+  }
+
+  .tittlebox {
+    padding-top: 50px;
+    height: 10%;
+    font-size: 20px;
+  }
+  .singerbox {
+    height: 10%;
+    font-size: 20px;
+  }
+
+  .descbox {
+    height: 60%;
+    font-size: 10px;
+  }
+  .lyrics {
+    height: 8%;
+    font-size: 24px;
+  }
+  .lyricbox {
+    font-size: 10px;
+    height: 80%;
+  }
+}

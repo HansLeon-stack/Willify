@@ -1,0 +1,178 @@
+.Box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 80px;
+  border-top: 1px solid #9c9c9c;
+  background-image: url(../Assets/Drum.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.Topbox {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  /* padding-left: 44px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Topbox h1 {
+  color: #c355f6;
+}
+
+.Botbox {
+  display: flex;
+  width: 100%;
+  height: 80%;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.everybox {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  height: 100%;
+}
+
+.picturebox {
+  display: flex;
+  width: 260px;
+  height: 260px;
+}
+
+.picture {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.tittle {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  align-items: center;
+  padding-top: 5px;
+  font-weight: 600;
+}
+.singer {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  color: #ffffff;
+  align-items: flex-start;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 600px;
+  background-image: url(../Assets/InfoBG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #9c9c9c;
+  border-bottom: 1px solid #9c9c9c;
+}
+
+.infobox {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 550px;
+}
+
+.brief {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  height: 20%;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.brief p {
+  font-size: 48px;
+  color: #c355f6;
+  font-weight: 700;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+  margin-top: 20px;
+  background-color: #2b2b2b;
+  opacity: 0.8;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.detailsbox {
+  display: flex;
+  width: 90%;
+  height: 80%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Box {
+    padding-bottom: 0;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+  .Topbox h1 {
+    font-size: 24px;
+  }
+  .everybox {
+    width: 100px;
+  }
+  .Botbox {
+    gap: 20px;
+  }
+
+  .picturebox {
+    width: 100%;
+    height: 35%;
+  }
+
+  .tittle,
+  .singer {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .info {
+    height: 350px;
+  }
+
+  .brief {
+    height: 30%;
+  }
+
+  .brief p {
+    font-size: 24px;
+  }
+  .details {
+    height: 30%;
+  }
+
+  .detailsbox {
+    font-size: 12px;
+  }
+}
