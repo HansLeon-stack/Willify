@@ -7,7 +7,7 @@ This project is my playground to experiment with UI design, layout, and simple m
 
 ## Description
 Willify is a simple front-end project that explores how a music website could look and feel.  
-It’s designed as a learning project — no backend or APIs, just static pages and basic interactivity.
+It’s designed as a learning project — no backend or APIs, just pages and basic interactivity.
 
 ---
 
